@@ -80,7 +80,7 @@ During the beta, compatibility efforts will be focused on Next.js development, w
 
 # Getting Involved
 
-The core working group communicates on Slack and you can request an invite [here](#).
+The core working group communicates on our Discord and you can get an invite [here](https://discord.gg/stackblitz).
 
 ## Port binaries to WebAssembly
 While many binaries are now available as WASMs, many still need to be converted over. These also tie into the webcontainer-registry for seamlessly swapping out legacy binaries with their corresponding WebAssembly counterparts during installs.
