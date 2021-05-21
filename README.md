@@ -63,7 +63,9 @@ WebContainers are designed to be secure by default and run within the browser's 
 
 # Upcoming Support
 
-During the beta, compatibility efforts will be focused on Next.js development, with additional environments soon to come after. Check this repository regularly to see the latest updates and plans for WebContainer.
+During the beta, compatibility efforts will be focused on Next.js development, with additional environments soon to come. Check this repository regularly to see the latest updates and plans for WebContainer.
+
+See [Supported Frameworks](Supported_frameworks.md) for details.
 
 # FAQs
 
