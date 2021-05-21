@@ -2,11 +2,11 @@
 
 This repository serves as a coordination point for the WebContainer working group. Chat with our team live on [Discord](https://discord.gg/stackblitz). See how you can [get involved](#getting-involved) below.
 
-### Browser Support
+## Browser Support
 
-|<a href="#">![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)</a><br>Chrome|<a href="#">![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png)</a><br>Edge|<a href="#">![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png)</a><br>Opera|<a href="#">![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)</a><br>Safari|<a href="#">![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)</a><br>Firefox|
+|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)<br>Chrome|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png)<br>Edge|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/brave/brave_48x48.png)<br>Brave|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)<br>Safari|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)<br>Firefox|
 |:---:|:---:|:---:|:---:|:---:|
-|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:soon:|:soon:|
+|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:<br>[Config needed](browsers/brave/brave.md)|:soon:|:soon:|
 
 ## Explainer
 
