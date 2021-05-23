@@ -4,6 +4,7 @@ The following is a list of frameworks that we have actively tested and are suppo
 
 - [Next.js](https://stackblitz.com/fork/nextjs)
 - [NestJS](https://stackblitz.com/fork/nestjs-starter)
+- [ExpressJS](https://stackblitz.com/edit/expressjs)
 
 ## Add support for a framework
 
