@@ -4,6 +4,7 @@ The following is a list of frameworks that we have actively tested and are suppo
 
 - ExpressJS ([simple](https://stackblitz.com/edit/node-dmbz1u) / [advanced](https://stackblitz.com/edit/expressjs))
 - [Koa](https://stackblitz.com/edit/koa-starter)
+- [Moleculer](https://stackblitz.com/edit/moleculer-starter)
 - [NestJS](https://stackblitz.com/fork/nestjs-starter)
 - [Next.js](https://stackblitz.com/fork/nextjs)
 - [Nuxt](https://stackblitz.com/github/nuxt/starter/tree/stackblitz)
