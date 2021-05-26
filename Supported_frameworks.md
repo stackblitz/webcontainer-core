@@ -5,6 +5,7 @@ The following is a list of frameworks that we have actively tested and are suppo
 - [Next.js](https://stackblitz.com/fork/nextjs)
 - [NestJS](https://stackblitz.com/fork/nestjs-starter)
 - [Koa](https://stackblitz.com/edit/koa-starter)
+- [Nuxt](https://stackblitz.com/github/nuxt/starter/tree/stackblitz)
 
 ## Add support for a framework
 
