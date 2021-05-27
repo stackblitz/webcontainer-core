@@ -7,11 +7,11 @@ assignees: ''
 
 ---
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Describe the solution you'd like:**
+<!-- A clear and concise description of what you want to happen. -->
 
-**Give a link to a github repo containing an example of the framework**
+**Provide a link to a github repo containing an example of the framework:**
 
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Additional context:**
+<!-- Add any other context or screenshots about the feature request here. -->
