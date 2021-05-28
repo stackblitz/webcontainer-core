@@ -92,13 +92,13 @@ See [Supported Frameworks](Supported_frameworks.md) for details.
 - Can I connect to any database?
   - We'regoing to roll out SQLite support in the next few weeks. You'll be able to run it natively in the same WebContainer!
 - Do you support vim or vim mode?
-  - It's on our radar, but not on our immediate roadmap, so no promises on this one rn!
+  - It's on our radar, with a prerequisite of enabling full VSC extensions support. We expect to have an announcement about this closer to GA.
 - Can I change the editor keybindings?
   - Soon!
 - Do you support ES modules?
-  - Working on it right now :)
+  - Working on it right now. :)
 - Will you support other languages? Ruby? Python? PHP?
-  - The crazy thing is, depending on wasm support for those, it now might be possible.
+  - The crazy thing is, depending on wasm support for those, it now might be possible. We're expecting some announcements about this over the coming months.
 - How can I help?
   - Check out the [Getting Involved](#getting-involved) section here to see how you can get involved, or [try out WebContainers on StackBlitz.com](https://stackblitz.com/edit/next-starter)
 
