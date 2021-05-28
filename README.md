@@ -77,6 +77,28 @@ See [Supported Frameworks](Supported_frameworks.md) for details.
   - Non WebAssembly native binaries. Native binaries must be compiled as WASM, which is a more portable and secure format for native binaries.
 - Is this a Docker container?
   - It's similar in the way that you can package and run Node.js code with minimal modifications, but your Browser serves as the operating system instead of a separately managed virtual machine.
+- Can I connect to a server I'm running in WebContainer from an external tool (e.g. Postman) or another website?
+  - WebContainer runs in the security sandbox of your browser, which means that if you call an endpoint you created from within your browser you can reach it, but from outside of the browser, it won't. We are working on a way to enable it in the future though: with a toggle switch you'll be able to proxy requests directly into your browser's running webcontainer, similar to ngrok.
+- Which Node.js version can I run?
+  - Current version we support is 14.6, other versions will be available as we head into General Availability.
+- Is there a way to install private npm packages?
+  - Not yet. While we're in beta we're not enabling private npm registry support (largely for security reasons). We're going to have full private npm registry support once we head into General Availability later this year. We do have private npm registry support available in our enterprise version of stackblitz v1 today though. 
+- How can I deploy my app?
+  - You can connect your StackBlitz project to a GitHub repository, and use CI workflows to configure such deployment. We are currently looking into integrations with partners such as Vercel, that will allow you to build and deploy to a hosting provider with a single click!
+- Do you support yarn or only npm?
+  - We are using Turbo, our own npm client. It's faster, and optimized for running in a browser, and we've designed it to be as similar in use to yarn or npm as possible. So you can run `npm i` or `yarn add` or any other command inside of a StackBlitz V2 project and its calling `turbo` under the hood.
+- Why WebContainers don't run on Safari/iOS/Android?
+  - We are ready, but some browsers are still missing features (e.g. SharedArrayBuffer) needed for WebContainers to run. We are super excited to be able to run StackBlitz on mobile devices!
+- Can I connect to any database?
+  - We're going to roll out SQLite support in the next few weeks. You'll be able to run it natively in the same WebContainer!
+- Do you support vim or vim mode?
+  - It's on our radar, with a prerequisite of enabling full VSC extensions support. We expect to have an announcement about this closer to GA.
+- Can I change the editor keybindings?
+  - Soon!
+- Do you support ES modules?
+  - Working on it right now!
+- Will you support other languages? Ruby? Python? PHP?
+  - The crazy thing is, depending on wasm support for those, it now might be possible. We're expecting some announcements about this over the coming months.
 - How can I help?
   - Check out the [Getting Involved](#getting-involved) section here to see how you can get involved, or [try out WebContainers on StackBlitz.com](https://stackblitz.com/edit/next-starter)
 
@@ -88,7 +110,7 @@ The core working group communicates on our Discord and you can get an invite [he
 While many binaries are now available as WASMs, many still need to be converted over. These also tie into the webcontainer-registry for seamlessly swapping out legacy binaries with their corresponding WebAssembly counterparts during installs.
 
 ## Test compatibility of new toolchains
-It's important for us to identify toolchains that are currently broken to ensure we can track
+It's important for us to identify toolchains that are currently broken so our team can investigate & release runtime compatiblity improvements. Follow our [supported frameworks guide](https://github.com/stackblitz/webcontainer-core/blob/main/Supported_frameworks.md) to help test new frameworks and provide feedback.
 
 ## Enable live environments for open source projects
 
