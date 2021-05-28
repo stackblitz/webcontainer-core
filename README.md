@@ -90,13 +90,13 @@ See [Supported Frameworks](Supported_frameworks.md) for details.
 - Why WebContainers don't run on Safari/iOS/Android?
   - We are ready, but some browsers are still missing features (e.g. SharedArrayBuffer) needed for WebContainers to run. We are super excited to be able to run StackBlitz on mobile devices!
 - Can I connect to any database?
-  - We'regoing to roll out SQLite support in the next few weeks. You'll be able to run it natively in the same WebContainer!
+  - We're going to roll out SQLite support in the next few weeks. You'll be able to run it natively in the same WebContainer!
 - Do you support vim or vim mode?
   - It's on our radar, with a prerequisite of enabling full VSC extensions support. We expect to have an announcement about this closer to GA.
 - Can I change the editor keybindings?
   - Soon!
 - Do you support ES modules?
-  - Working on it right now. :)
+  - Working on it right now!
 - Will you support other languages? Ruby? Python? PHP?
   - The crazy thing is, depending on wasm support for those, it now might be possible. We're expecting some announcements about this over the coming months.
 - How can I help?
@@ -110,7 +110,7 @@ The core working group communicates on our Discord and you can get an invite [he
 While many binaries are now available as WASMs, many still need to be converted over. These also tie into the webcontainer-registry for seamlessly swapping out legacy binaries with their corresponding WebAssembly counterparts during installs.
 
 ## Test compatibility of new toolchains
-It's important for us to identify toolchains that are currently broken to ensure we can track
+It's important for us to identify toolchains that are currently broken so our team can investigate & release runtime compatiblity improvements. Follow our [supported frameworks guide](https://github.com/stackblitz/webcontainer-core/blob/main/Supported_frameworks.md) to help test new frameworks and provide feedback.
 
 ## Enable live environments for open source projects
 
