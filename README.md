@@ -6,7 +6,7 @@ This repository serves as a coordination point for the WebContainer working grou
 
 |![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)<br>Chrome|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png)<br>Edge|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/brave/brave_48x48.png)<br>Brave|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)<br>Safari|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)<br>Firefox|
 |:---:|:---:|:---:|:---:|:---:|
-|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:<br>[Config needed](browsers/brave/brave.md)|:soon:|:soon:|
+|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:<br>[Config<br>Needed](browsers/brave/brave.md)|:soon:|:soon:|
 
 ## Explainer
 
@@ -27,7 +27,7 @@ Provide developers fast, secure and consistent development environments for real
 - Security
   - In a world where cyber security attacks are becoming increasingly prevalent, security can't be an afterthought. Development environments must be secure by default in order to have a maintainable security posture.
 - Consistency
-  - "Worked on my machine" is one of the most common sayings when bugs are first discovered due to inconsistencies between environments. Containers can help abstract the complexity between different systems and environemnts.
+  - "Worked on my machine" is one of the most common sayings when bugs are first discovered due to inconsistencies between environments. Containers can help abstract the complexity between different systems and environments.
 - Development Experience
   - Frictionless
     - Adopting a new tool shouldn't mean rewriting a codebase. Great tools should be a joy to use and should minimize disruption to existing workflows.
@@ -82,7 +82,7 @@ See [Supported Frameworks](Supported_frameworks.md) for details.
 - Which Node.js version can I run?
   - Current version we support is 14.6, other versions will be available as we head into General Availability.
 - Is there a way to install private npm packages?
-  - Not yet. While we're in beta we're not enabling private npm registry support (largely for security reasons). We're going to have full private npm registry support once we head into General Availability later this year. We do have private npm registry support available in our enterprise version of stackblitz v1 today though. 
+  - Not yet. While we're in beta we're not enabling private npm registry support (largely for security reasons). We're going to have full private npm registry support once we head into General Availability later this year. We do have private npm registry support available in the [enterprise version of StackBlitz](https://stackblitz.com/enterprise) today though. 
 - How can I deploy my app?
   - You can connect your StackBlitz project to a GitHub repository, and use CI workflows to configure such deployment. We are currently looking into integrations with partners such as Vercel, that will allow you to build and deploy to a hosting provider with a single click!
 - Do you support yarn or only npm?
