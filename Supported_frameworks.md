@@ -7,6 +7,7 @@ The following is a list of frameworks that we have actively tested and are suppo
 - [NestJS](https://stackblitz.com/fork/nestjs-starter)
 - [Next.js](https://stackblitz.com/fork/nextjs)
 - [Nuxt](https://stackblitz.com/github/nuxt/starter/tree/stackblitz)
+- [UmiJS](https://stackblitz.com/fork/umijs)
 
 ## Add support for a framework
 
