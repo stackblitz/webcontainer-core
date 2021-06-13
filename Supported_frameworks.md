@@ -8,6 +8,7 @@ The following is a list of frameworks that we have actively tested and are suppo
 - [Next.js](https://stackblitz.com/fork/nextjs)
 - [Nuxt](https://stackblitz.com/github/nuxt/starter/tree/stackblitz)
 - [Egg.js](https://stackblitz.com/edit/webcontainer-egg?file=README.md)
+- [Retes](https://stackblitz.com/edit/retes)
 
 ## Add support for a framework
 
