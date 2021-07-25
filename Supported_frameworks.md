@@ -9,6 +9,7 @@ The following is a list of frameworks that we have actively tested and are suppo
 - [Nuxt](https://stackblitz.com/github/nuxt/starter/tree/stackblitz)
 - [Egg.js](https://stackblitz.com/edit/webcontainer-egg?file=README.md)
 - [UmiJS](https://stackblitz.com/fork/umijs)
+- [LotusJS](https://node-kg7djp.stackblitz.io)
 
 ## Add support for a framework
 
