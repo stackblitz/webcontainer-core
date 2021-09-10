@@ -54,8 +54,6 @@ As with many new technologies, there are inherent technical limitations of what'
   - While many `postinstall` scripts are harmless to run, most are used for setting up/compiling native binaries, and can often times be run in privileged root contexts, giving system-wide access to arbitrary code. This [vulnerability](https://www.kb.cert.org/vuls/id/319816) is [known by NPM](https://blog.npmjs.org/post/141702881055/package-install-scripts-vulnerability.html) with no plans on remediating the behavior, and goes against the secure-by-default nature of the Web.
 - HTTP Networking
   - We're limited by the browser's ability to make network requests, so connecting to processes like MongoDB, Redis, PostgreSQL, etc. are not currently possible. This may change as [Chromium plans to ship Native Sockets](https://bugs.chromium.org/p/chromium/issues/detail?id=909927&can=2&q=proj-fugu&sort=pri&colspec=ID%20Pri%20M%20Stars%20ReleaseBlock%20Component%20Status%20Owner%20Summary%20OS%20Modified&x=m&y=releaseblock&cells=ids) in the future. For now, we're limited to HTTP connections, but we're able to support other protocols that run on HTTP such as WebSockets. HTTP requests to external services must be allowed with CORS or a CORS proxy.
-- Module support
-  - ESM is currently supported with the use of transpilers, but native ESM support will be coming in the future.
 
 # Security
 
