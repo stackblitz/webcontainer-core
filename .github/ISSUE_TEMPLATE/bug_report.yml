@@ -7,7 +7,7 @@ body:
         Thank you for reporting an issue :pray:.
 
         This issue tracker is for bugs and issues found within WebContainer.
-        If you experience issues unrelated to WebContainer, pleas file an issue in our StackBlitz core repo. https://github.com/stackblitz/core
+        If you experience issues unrelated to WebContainer, please file an issue in our StackBlitz core repo. https://github.com/stackblitz/core
 
         The more information you fill in, the better we can help you.
   - type: textarea
@@ -21,6 +21,7 @@ body:
     id: link
     attributes:
       label: Link to the blitz that caused the error
+      description: Please do not delete it after reporting!
     validations:
       required: true
   - type: textarea
