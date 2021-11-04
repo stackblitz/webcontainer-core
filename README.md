@@ -1,6 +1,6 @@
-# WebContainer
+# ▦ WebContainer (WG)
 
-This repository serves as a coordination point for the WebContainer working group. Chat with our team live on [Discord](https://discord.gg/stackblitz). See how you can [get involved](#getting-involved) below.
+This repository serves as a coordination point for the WebContainer™ working group. Chat with our team live on [Discord](https://discord.gg/stackblitz). See how you can [get involved](#getting-involved) below.
 
 ## Browser Support
 
@@ -113,3 +113,8 @@ It's important for us to identify toolchains that are currently broken so our te
 ## Enable live environments for open source projects
 
 Integrating live WebContainer environments in OSS GitHub issue templates, documentation and learning resources is key: open source projects have instant reliable bug reproductions, newcomers to those libraries have an instant environment to learn in, and the WebContainer runtime becomes more robust against any edge cases.
+
+# License
+Copyright (c) StackBlitz, Inc. All rights reserved.
+
+Licensed under the MIT license.
