@@ -1,0 +1,17 @@
+name: New framework support
+description: Suggest a framework that we should add support for
+title: Framework support for [FRAMEWORK_NAME]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the solution you'd like
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Provide a link to a GitHub repo containing an example of the framework
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
