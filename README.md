@@ -59,12 +59,6 @@ As with many new technologies, there are inherent technical limitations of what'
 
 WebContainers are designed to be secure by default and run within the browser's security sandbox without any extensions or services needed to run. WebContainers are subject to the same cross-origin security constraints as any ordinary JavaScript code in the browser. Many development environments are run in environments with an excess amount of privilege, giving third party dependencies complete access over the operating system. By containing runtime environments within a browser context, we get an additional layer of security and process isolation when compared to running code locally on an operating system.
 
-# Upcoming Support
-
-During the beta, compatibility efforts will be focused on Next.js development, with additional environments soon to come. Check this repository regularly to see the latest updates and plans for WebContainer.
-
-See [Supported Frameworks](Supported_frameworks.md) for details.
-
 # FAQs
 
 - Is there a developer API?
@@ -108,7 +102,18 @@ The core working group communicates on our Discord and you can get an invite [he
 While many binaries are now available as WASMs, many still need to be converted over. These also tie into the webcontainer-registry for seamlessly swapping out legacy binaries with their corresponding WebAssembly counterparts during installs.
 
 ## Test compatibility of new toolchains
-It's important for us to identify toolchains that are currently broken so our team can investigate & release runtime compatiblity improvements. Follow our [supported frameworks guide](https://github.com/stackblitz/webcontainer-core/blob/main/Supported_frameworks.md) to help test new frameworks and provide feedback.
+It's important for us to identify toolchains that are currently broken so our team can investigate & release runtime compatiblity improvements. If you wan to help test new frameworks and provide feedback:
+
+1. Go to <a href="https://stackblitz.com/fork/node" target="_blank">our node starter</a>
+2. Add a dependency to the framework you wanna try out by using `npm i ${framework}`
+3. Add the necessary files to the stackblitz example.
+4. See if it works!
+
+If it works, great! Feel free to contact us on [Discord](https://discord.gg/stackblitz) or [Twitter](https://twitter.com/stackblitz) and let us know!
+
+If it doesn't work, you can file an issue by clicking the button in the editor or by creating an issue on this repo and we will try and figure out what went wrong.
+
+In both cases: Thanks for helping us!
 
 ## Enable live environments for open source projects
 
