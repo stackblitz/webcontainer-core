@@ -2,6 +2,10 @@
 
 In general, we always prefer a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) when looking at a bug report. Here are a few things you can do to write the perfect example when you encounter an issue with WebContainer.
 
+## Try Locally
+If a project is not working as expected, it might be due to an incompatibility with WebContainer. However, please do check that the project runs as expected in your local machine, with your Node installation. If it does run without issue locally, we are much more certain that we might be after a WebContainer compat issue.
+
+For some types of issues, it might not make sense to perform this verification, e.g. if you have an issue with the editor.
 
 ## Auto-execute Erroneous Command
 We always ask you to include a link to a blitz that shows the erroneous behavior. You can make things even easier to reproduce if you configure it so the command that triggers the error is run automatically on start. You can do that by including a [custom `.stackblitzrc` configuration file](https://developer.stackblitz.com/docs/platform/project-config).

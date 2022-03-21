@@ -6,6 +6,8 @@ body:
       value: |
         Thank you for reporting an issue :pray:.
 
+        Please read our [guidelines to report issues](https://github.com/stackblitz/webcontainer-core/blob/main/repro.md).
+
         This issue tracker is for bugs and issues found within WebContainer.
         If you experience issues unrelated to WebContainer, please file an issue in our StackBlitz core repo. https://github.com/stackblitz/core
 
@@ -49,7 +51,8 @@ body:
       label: Parity with Local
       description: Does the issue appear only when running the WebContainer project? Or does it also appear locally?
       options:
-        - label: I have run the project in my local machine and I could not reproduce the issue.
+        - label: I have [run the project in my local machine](https://github.com/stackblitz/webcontainer-core/blob/main/repro.md#try-locally) and I could not reproduce the issue.
+          required: true
   - type: textarea
     id: screenshots
     attributes:
