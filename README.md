@@ -6,7 +6,7 @@ This repository serves as a coordination point for the WebContainer™ working g
 
 |![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)<br>Chrome|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png)<br>Edge|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/brave/brave_48x48.png)<br>Brave|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)<br>Safari|![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)<br>Firefox|
 |:---:|:---:|:---:|:---:|:---:|
-|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:<br>[Config needed](https://developer.stackblitz.com/docs/platform/brave-support)|:soon:|:soon:|
+|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:<br>[Config needed](https://developer.stackblitz.com/docs/platform/brave-support)|:soon:|:heavy_check_mark:|
 
 ## Explainer
 
