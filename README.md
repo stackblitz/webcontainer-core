@@ -23,3 +23,7 @@ For documentation, visit **[webcontainers.io](https://webcontainers.io)** where 
 
 - Chat with our team on [Discord](https://discord.gg/stackblitz)
 - For Enterprise inquiries, visit [Enterprise](https://webcontainers.io/enterprise)
+
+## Changelog
+
+The changelog is made available [in our documentation](https://webcontainers.io/changelog).
