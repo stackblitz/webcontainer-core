@@ -18,3 +18,5 @@ assignees: ''
 
 **Additional context:**
 <!-- Add any other context or screenshots about the feature request here. -->
+
+For more information, please refer to the [.github/ISSUE_TEMPLATE/feature_request.md](https://github.com/stackblitz/webcontainer-core/blob/main/.github/ISSUE_TEMPLATE/feature_request.md) file in the repository.
